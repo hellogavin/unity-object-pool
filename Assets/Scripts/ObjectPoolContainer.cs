@@ -14,14 +14,8 @@ namespace MonsterLove.Collections
 
 		public T Item
 		{
-			get
-			{
-				return item;
-			}
-			set
-			{
-				item = value;
-			}
+			get;
+			set;
 		}
 
 		public void Release()
